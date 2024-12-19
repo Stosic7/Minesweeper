@@ -29,3 +29,25 @@ A console-based implementation of the classic **Minesweeper** game, developed in
 
 ### Author
 Luka Stosic
+
+### Gameplay Example
+# Starting grid:
+# # # #
+# # # #
+# # # #
+# # # #
+
+Enter your move: R 0 1
+
+# Grid after revealing (0, 1):
+#   1 #
+# # # #
+# # # #
+# # # #
+
+Enter your move: F 2 3
+
+# Grid with a flag at (2, 3):
+#   1 #
+# # # #
+# # # F
